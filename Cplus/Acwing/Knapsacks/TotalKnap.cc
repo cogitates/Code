@@ -1,0 +1,32 @@
+// 完全背包问题
+// https://www.acwing.com/problem/content/3/
+#include <bits/stdc++.h>
+using namespace std;
+
+const int N = 1010;
+
+int n,m;
+int v[N],w[N];
+
+int f[N][N];
+
+int main(){
+
+    cin >> n >> m;
+
+    for(int i = 1;i <= n;i++) cin >> v[i] >> w[i];
+
+
+    for(int i = 1;i <= n;i++){
+        for(int j = 0;j <= m;j++){
+            f[i][j] = f[i-1][j];
+            if(j >= v[i]) f[i][j] = max(f[i][j],f[i][j-v[i]]+w[i]);
+        }
+    }
+    // 
+    // f[i,j] = max(f[i-1,j],f[i-1,j-v[i]]+w[i],f[i-1,j-2v[i]]+2w[i],f[i-1,j-3v[i]]+3w[i]...)
+    // f[i,j-v[i]] = max(f[i-1,j-v[i]]+w[i],f[i-1,j-2v[i]]+2w[i],f[i-1,j-3v[i]]+3w[i]...)
+    // so that f[i,j] = max(f[i-1,j],f[i,j-v[i]])
+    cout << f[n][m] << endl;
+    return 0;
+}

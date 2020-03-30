@@ -1,0 +1,330 @@
+    1  zsh
+    2  exit
+    3  cd ~
+    4  vim .zshrc
+    5  source .zshrc
+    6  exit
+    7  vim .zshrc
+    8  cd ~
+    9  vim .zshrc
+   10  zsh
+   11  exit
+   12  source ~/.zshrc
+   13  cd ~
+   14  compaudit | xargs chmod g-w,o-w
+   15  zsh
+   16  vim .zshrc
+   17  source .zshrc
+   18  zsh
+   19  whoami
+   20  echo hello world
+   21  sudo apt-get install openjdk-8-jdk
+   22  sudo apt-get install openjdk-8
+   23  sudo apt-get install openjdk-8-jdk
+   24  sudo apt-get install openjdk-11-jdk
+   25  sudo apt-get autoremove
+   26  sudo apt-get install nodejs
+   27  python
+   28  python3
+   29  gcc -v
+   30  sudo apt-get install gdb
+   31  sudo apt-get install openjdk-11-jdk
+   32  sudo apt-get autoclean
+   33  sudo apt-get autoclean && sudo apt-get autoremove
+   34  apt-get update && apt-get install java-common
+   35  sudo apt-get update && apt-get install java-common
+   36  sudo  apt-get install java-common
+   37  java
+   38  wget https://corretto.aws/downloads/latest/amazon-corretto-8-x64-linux-jdk.deb\n1\n执行安装
+   39  dpkg --install amazon-corretto-8-x64-linux-jdk.deb
+   40  sudo dpkg --install amazon-corretto-8-x64-linux-jdk.deb
+   41  java -v
+   42  java -version
+   43  whoami
+   44  echo hello world
+   45  javac -version
+   46  gcc -v
+   47  gdb -v
+   48  whoami
+   49  man whoami
+   50  ls
+   51  exit
+   52  pwd
+   53  /usr/lib/jvm/java-1.8.0-amazon-corretto/bin/java -Dfile.encoding=UTF-8 -cp /home/zxq/.vscode-server/data/User/workspaceStorage/804f9d43ade8194eee278782acfd0574/redhat.java/jdt_ws/Code_c2a8b50a/bin Test 
+   54  node JavaScript/test.js
+   55  whoami
+   56  grep -version
+   57  grep --version
+   58  awk --version
+   59  awk -version
+   60  wak -v
+   61  awk -v
+   62  awk -version
+   63  awk -v
+   64  awk --version
+   65  awk --help
+   66  awk -help
+   67  ls /bin/
+   68  wslpath
+   69  wslpath -u
+   70  wslpath pwd
+   71  wslpath 'c:\code'
+   72  node "/home/zxq/Code/JavaScript/test.js"
+   73  whoami
+   74  echo  hello  world
+   75  whoami
+   76  echo hello world
+   77  delete whow
+   78  ls
+   79  ls *
+   80  cd "/home/zxq/Code/Cplus/" && g++ test.cpp -o test && "/home/zxq/Code/Cplus/"test
+   81  sudo apt-get install g++
+   82  cd "/home/zxq/Code/Cplus/" && g++ test.cpp -o test && "/home/zxq/Code/Cplus/"test
+   83  sudo apt-get install gcc
+   84  sudo apt-get install g++
+   85  cd "/home/zxq/Code/Cplus/" && g++ test.cpp -o test && "/home/zxq/Code/Cplus/"test
+   86  whoami
+   87  clear
+   88  whoami
+   89  echo hello
+   90  zhongwen
+   91  dir
+   92  ls
+   93  whoami
+   94  echo hello world
+   95  pwd
+   96  delete
+   97  ls
+   98  echo hello world
+   99  ls
+  100  dir
+  101  cd ~
+  102  remember of me
+  103  test
+  104  whoami
+  105  bash
+  106  reboot
+  107  clear
+  108  whoami
+  109  type grep
+  110  whatis grep
+  111  which grep
+  112  exit
+  113  ;5~;5~;5~;5~;5~;5~;5~;5~;5~;5~;5~;5~;5~;5~~~~~~~~~~~~~~~~~~~~f~~~a~d~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~d~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~;5~;5~;5~;5~;5~;5~;5~;5~;5~;5~;5~;5~;5~;5~;5~;5~;5~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+  114  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+  115  WHOAMI
+  116  whoami
+  117  clear
+  118  whoami
+  119  dir
+  120  dir | grep int
+  121  dir | grep in
+  122  whoami
+  123  pwd
+  124  dir
+  125  dd
+  126  whoami
+  127  man
+  128  sudo apt install man
+  129  ~
+  130  whoami
+  131  grep
+  132  grep --help
+  133  man grep
+  134  exit
+  135  whoami
+  136  setting
+  137  ls /sbin
+  138  shutdown
+  139  exit
+  140  /usr/lib/jvm/java-1.8.0-amazon-corretto/bin/java -Dfile.encoding=UTF-8 -cp /home/zxq/.vscode-server/data/User/workspaceStorage/804f9d43ade8194eee278782acfd0574/redhat.java/jdt_ws/Code_c2a8b50a/bin Test 
+  141  cd "/home/zxq/Code/Java/" && javac PriorityQueue.java && java PriorityQueue
+  142  pwd
+  143  cd ~
+  144  ls
+  145  mv amazon-corretto-8-x64-linux-jdk.deb /mnt/c/Code
+  146  ls
+  147  python -u "/home/zxq/Code/Python/test.py"
+  148  cd Code
+  149  ls
+  150  python3 Python/test.py
+  151  python -u "/home/zxq/Code/Python/test.py"
+  152  exit
+  153  python -u "/home/zxq/Code/Python/test.py"
+  154  python3 -u "/home/zxq/Code/Python/test.py"
+  155  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~b~~~~~a~~~~~~~~~~~s~~~h~~~~~~~~~~~
+  156  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~;2~;2~;2~;2~;2~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ee~~~~~~~~~~~~~~;2~;2~;2~;2~;2~;2~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~;2~;2~;2~;2~;2~;2~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~;5~;5~;5~;5~;5~;5~;5~;5~;5~;5~;5~;5~;5~;5~~~~~~~~~~~~~~e~~~~~~~~~~~~~~~~~~~~~x~~~~~i~~~~~~~~~t~~~~~~~~~~~~~
+  157  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~e~~~~~~~~~~~x~~~~i~~~~~~~~~t~~~~~~~~
+  158  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~e~~~~~~~~~~~x~~~~i~~~~~~~~~t~~~~~~~~~~~~
+  159  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~w~~~~~h~~~~o~~a~~~~~m~~~~i~~~~~~~~~~~~~~
+  160  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~b~~~~a~~~~~~~~s~~~~h~~~~~~~~
+  161  exit
+  162  reboot
+  163  exit
+  164  额
+  165  whoami
+  166  ls
+  167  test
+  168  delete
+  169  exit
+  170  ls
+  171  mkdir Repo
+  172  cd Repo
+  173  ls
+  174  git clone https://github.com/KJlmfe/-Head-First-JavaScript-.git
+  175  ls
+  176  cd -Head-First-JavaScript-
+  177  s
+  178  ls
+  179  cd ch01
+  180  ls
+  181  exit
+  182  cp ~/Code /mnt/c/Code  -n
+  183  cp ~/Code /mnt/c/Code  -r
+  184  exit
+  185  whoami
+  186  /usr/lib/jvm/java-1.8.0-amazon-corretto/bin/java -Dfile.encoding=UTF-8 -cp /home/zxq/.vscode-server/data/User/workspaceStorage/804f9d43ade8194eee278782acfd0574/redhat.java/jdt_ws/Code_c2a8b50a/bin Test 
+  187  whoami
+  188  ls
+  189  cd ShellScript
+  190  ls
+  191  ./test.sh
+  192  chmod +x test.sh
+  193  ./test.sh
+  194  chmod +x expr
+  195  chmod +x expr.sh
+  196  ./expr
+  197  ./expr.sh
+  198  ls
+  199  ls -a
+  200  ls -l
+  201  chmod +x var2.sh
+  202  ./var2.sh
+  203  ls
+  204  ./var2.sh
+  205  ls
+  206  ./var2.sh
+  207  rm _file zhang xue
+  208  ls
+  209  chmod +x readonly.sh
+  210  ./readonly.sh
+  211  chmod +x string.sh
+  212  ./string.sh
+  213  chmod +x array.sh
+  214  ./array.sh
+  215  chmod +x par
+  216  chmod +x parm.sh
+  217  ./parm.sh
+  218  ./parm.sh zhang xue
+  219  ./array.sh
+  220  ./expr.sh
+  221  chmod +x compare.sh
+  222  ./compare.sh
+  223  chmod +x boolexp.sh
+  224  ./boolexp.sh
+  225  chmod +x logic.sh
+  226  ./logic.sh
+  227  chmod +x file.sh
+  228  ./file.sh
+  229  chmod +x test.sh
+  230  ./test.sh
+  231  chmod +x if.sh
+  232  ./if.sh
+  233  chmod +x for.sh
+  234  ./for.sh
+  235  chmod +x while.sh
+  236  ./while.sh
+  237  chmod +x case.sh
+  238  ./case.sh
+  239  chmod +x break.sh
+  240  ./break.sh
+  241  chmod +x function.sh
+  242  ./function.sh
+  243  ls
+  244  grep '\<a'
+  245  grep '\<a' ls
+  246  grep '\<a' array.sh
+  247  grep 'a>\' array.sh
+  248  grep 'a>\' function.sh
+  249  grep 'm>\' function.sh
+  250  grep 'm\>' function.sh
+  251  grep 's\{1,3\}' function.sh
+  252  grep [:isnum:]  function.sh
+  253  grep [:alnum:]  function.sh
+  254  grep [:alpha:]  function.sh
+  255  grep [a-c]  function.sh
+  256  grep [a-z]  function.sh
+  257  cat function.sh | grep [a-z]
+  258  cat function.sh | grep '[a-d]'
+  259  cat function.sh | grep s$
+  260  cat function.sh | grep ^s
+  261  cat function.sh | grep $s
+  262  cat function.sh | grep s$
+  263  cat function.sh | grep o$
+  264  cat function.sh | grep ^o
+  265  cat function.sh | grep o^
+  266  cat function.sh | grep m$
+  267  cat function.sh | grep ^r
+  268  cat function.sh | grep r^
+  269  cat function.sh | grep f^
+  270  cat function.sh | grep '^f'
+  271  cat function.sh | grep '^f' -b
+  272  cat function.sh | grep '^f' -a
+  273  cat function.sh | grep '^f' -A
+  274  cat function.sh | grep '^f' -B
+  275  cat function.sh | grep '^f' -c
+  276  cat function.sh | grep '^f' -n
+  277  free
+  278  free -h
+  279  df -h
+  280  sudo fdisk -l
+  281  top
+  282  ps
+  283  pstree
+  284  ls
+  285  zsh
+  286  whoami
+  287  sudo apt-get install lua
+  288  sudo apt-get install lua5.3
+  289  lua5.3
+  290  ls
+  291  cd ShellScript
+  292  ls
+  293  rm EOF
+  294  ls
+  295  vim pat.txt
+  296  cat pat.txt
+  297  awk
+  298  sed "s/my/zxq's/g" pat.txt
+  299  sed "s/my/zxq's/" pat.txt
+  300  sed "a/my/zxq's/" pat.txt
+  301  sed "3,5s/my/zxq/g" pat.txt
+  302  sed "3,5s/my/zxq/1" pat.txt
+  303  sed "3,5s/my/zxq/3.g" pat.txt
+  304  sed "3,5s/my/zxq/3.g" pat.txt -e
+  305  vim my.txt
+  306  sed 's/s/S/1' my.txt
+  307  sed 's/s/S/2' my.txt
+  308  sed 's/s/S/2g' my.txt
+  309  sed 's/s/[&]/2g' my.txt
+  310  sed '/fish/s i whomi' my.txt
+  311  sed '/fish/a whomi' my.txt
+  312  sed '/fish/i whomi' my.txt
+  313  netstat
+  314  top > top.txt
+  315  cat top.txt
+  316  awk '{print $1, $3}' top.txt
+  317  history
+  318  history | awk '{print $1 }' 
+  319  history | awk '{print %-10s $2 }' 
+  320  history | awk '{print "%-10s\n", $2 }' 
+  321  history | awk '{print "%-10s", $2}' 
+  322  history | awk '{print " %-10s ", $2}' 
+  323  history | awk '{print " %-10s ",$2}' 
+  324  history | awk '{print " %-3s ",$2}' 
+  325  history | awk '{print "%-3s",$2}' 
+  326  history | awk '{print "%-10s %-3s",$1,$2}' 
+  327  history | awk '{print ' "%-10s %-3s",$1,$2'}' 
+  328  history | awk '{print '"%-10s %-3s",$1,$2'}' 
+  329  history | awk '{print "%10s %3s",$1,$2}' 
+  330  history | awk '{print "%10d %3s",$1,$2}' 
