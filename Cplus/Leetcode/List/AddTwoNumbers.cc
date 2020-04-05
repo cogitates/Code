@@ -17,7 +17,7 @@ public:
         ListNode* tail = &dummy;  // 新链表的尾指针
 
         int sum = 0;
-        // sum 条件必不可少，为了处理最后的进位情况
+        // 任何一个数字没有处理完或者仍然有进位的情况下，循环继续
         while(l1 || l2 || sum){ // 有一个条件成立即可运行
             sum += (l1 ? l1->val : 0) + (l2 ? l2->val : 0);
             l1 = l1 ? l1->next : nullptr;

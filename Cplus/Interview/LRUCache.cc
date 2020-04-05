@@ -1,17 +1,13 @@
+// https://leetcode.com/problems/lru-cache/
+// LRU cache
 #include <bits/stdc++.h>
 using namespace std;
-
+// hashmap + list
 
 class LRUCache {
-    struct Cache{
-        int key;
-        int val;
-        int mark = 0;
-    };
-    Cache* cache;
 public:
     LRUCache(int capacity) {
-        cache = (Cache*)malloc(sizeof(Cache) * capacity);
+        
     }
     
     int get(int key) {
