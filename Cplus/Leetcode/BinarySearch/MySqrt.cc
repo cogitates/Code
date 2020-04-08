@@ -13,7 +13,7 @@ public:
         while(right > left){
             int mid = (right - left) / 2 + left;
             cout << left << " " << mid << " " << right << endl;
-            if(long(mid) * mid - x <= 0 && ((long)mid+1) * ((long)mid+1) - x > 0){
+            if(long(mid) * mid - x <= 0 && ((long)mid+1) * ((long)mid+1) - x > 0){ // 使用二分可能会导致溢出
                 return mid;
             }else if(long(mid) * mid >= (long)x + 1){
                 right = mid;

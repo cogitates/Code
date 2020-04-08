@@ -52,7 +52,7 @@ public:
         }
         return result;
     }
-
+ 
     bool judge(string s){
         int len = s.size();
         for(int i = 0;i < len / 2;i++){

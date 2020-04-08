@@ -9,8 +9,8 @@ public:
         unordered_map<int,int> mp;
         for(int i = 0;i < nums.size();i++){
             int t = target - nums[i];
-            if(mp.count(t)) return vector<int>({mp[t],i});
-            mp[nums[i]] = i;
+            if(mp.count(t)) return vector<int>({mp[t],i}); // if find ,return 
+            mp[nums[i]] = i; // insert new value
         }
 
         return vector<int>{};
