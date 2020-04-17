@@ -1,6 +1,7 @@
 {
     "files.associations": {
         "functional": "cpp",
-        "thread": "cpp"
+        "thread": "cpp",
+        "mutex": "cpp"
     }
 }
