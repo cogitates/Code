@@ -33,6 +33,10 @@ public:
   void addAccount(Account* account) {
     mAccounts.insert(account);
   }
+/*
+仔细思考一下这两个线程的逻辑：
+这两个线程可能会同时获取其中一个账号的锁，然后又想获取另外一个账号的锁，此时就发生了死锁。
+*/ 
 
   bool transferMoney(Account* accountA, Account* accountB, double amount) {
     // lock(*accountA->getLock(), *accountB->getLock());
@@ -89,11 +93,6 @@ void randomTransfer(Bank* bank, Account* accountA, Account* accountB) {
     }
   }
 }
-
-/*
-我们仔细思考一下这两个线程的逻辑：
-这两个线程可能会同时获取其中一个账号的锁，然后又想获取另外一个账号的锁，此时就发生了死锁。
-*/ 
 
 
 int main() {
