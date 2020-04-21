@@ -55,3 +55,30 @@ public:
         return vector<int>(ans.begin(),ans.end());
     }
 };
+
+class Solution {
+public:
+    vector<int> postorderTraversal(TreeNode* root) {
+        vector<int> result;
+        if(!root) return result;
+        //遍历顺序是：root->left->root(1)->right->root(2)
+        // 必须要分清楚返回到根节点时，是从左子树返回的，还是从右子树返回的，使用一个辅助bool变量用于标记状态
+        stack<pair<TreeNode*,bool> > s;
+        TreeNode* ptr = root;
+        while(ptr || !s.empty()) { // when the (!ptr)and(s.empty()) while loop end
+            if(ptr){ 
+                s.push(make_pair(ptr,false)); 
+                ptr = ptr->left;
+            }else{
+                auto now = s.top();s.pop();
+                if(now.second == false){
+                    s.push(make_pair(now.first,true));
+                    ptr = now.first->right;
+                }else{
+                    result.push_back(now.first->val);
+                }
+            }
+        }
+        return result;
+    }
+};
