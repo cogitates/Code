@@ -35,3 +35,23 @@ public:
         return root;
     }
 };
+
+
+class Solution {
+public:
+    TreeNode* mergeTrees(TreeNode* t1, TreeNode* t2) {
+        TreeNode* head;
+        if(t1 == nullptr && t2 == nullptr)
+            return nullptr; // 循环中止条件
+        else if(t1 == nullptr)   
+            head = new TreeNode(t2->val);
+        else if(t2 == nullptr)
+            head = new TreeNode(t1->val);
+        else{
+            head = new TreeNode(t1->val+t2->val);
+        }
+        head->left = mergeTrees(t1?t1->left:nullptr,t2?t2->left:nullptr);
+        head->right = mergeTrees(t1?t1->right:nullptr,t2?t2->right:nullptr);
+        return head;
+    }
+}; 
