@@ -9,8 +9,9 @@ public:
     vector<vector<int>> subsets(vector<int>& nums) {
         vector<vector<int>> ans;
         vector<int> cur;
-
-        for(int i = 0;i <= nums.size();++i){
+        // n is size of cur
+        // s is start of the tree
+        for(int i = 0;i <= nums.size();++i){ // 这里是对4棵树进行了遍历
             dfs(nums,i,0,cur,ans); 
         }
         return ans;
@@ -24,6 +25,27 @@ private:
         for(int i = s;i < nums.size();++i){
             cur.push_back(nums[i]);
             dfs(nums, n, i+1, cur, ans);
+            cur.pop_back();
+        }
+    }
+};
+
+class Solution {
+public:
+    vector<vector<int>> subsets(vector<int>& nums) {
+        vector<vector<int>> ans;
+        vector<int> cur;
+
+        dfs(nums,0,cur,ans);
+        return ans;
+    }
+private:
+    void dfs(const vector<int>& nums,int s,vector<int>& cur,vector<vector<int>>& ans){
+        // cout<<n<<":"<<s<<":"<<cur.size()<<endl;
+        ans.push_back(cur);
+        for(int i = s;i < nums.size();++i){
+            cur.push_back(nums[i]);
+            dfs(nums, i+1, cur, ans);
             cur.pop_back();
         }
     }
