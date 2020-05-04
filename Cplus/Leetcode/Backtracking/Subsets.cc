@@ -40,6 +40,7 @@ public:
         return ans;
     }
 private:
+    // 遍历的树是组合树，不同于组合问题结果大小固定，子集问题包括所有大小的组合情况
     void dfs(const vector<int>& nums,int s,vector<int>& cur,vector<vector<int>>& ans){
         // cout<<n<<":"<<s<<":"<<cur.size()<<endl;
         ans.push_back(cur);

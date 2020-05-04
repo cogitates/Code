@@ -27,7 +27,7 @@ a few seconds ago	Accepted	88 ms	9.5 MB	cpp
             result.push_back(temp);
             return ;
         }
-
+        // 当前节点的后续选择依赖当前节点的高度，因此使用高度作为参数
         for(int i = level;i <= n;i++){
             temp.push_back(i);
             dfs(i+1,result,temp,k,n);
