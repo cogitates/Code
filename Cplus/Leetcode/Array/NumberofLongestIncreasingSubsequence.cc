@@ -13,7 +13,7 @@ public:
         vector<int> len(n, 1), cnt(n, 1);
         for (int i = 0; i < n; ++i) {
             for (int j = 0; j < i; ++j) {
-                // 对于i&&j ==> nums[i]&&nums[j] len[i]&&len[j] cnt[i]&&cnt[j]
+                // 对于i&&j ==> (nums[i]&&nums[j] len[i]&&len[j] cnt[i]&&cnt[j]) 
                 // 通过对上面几种状态的处理，从而解决问题
                 if (nums[i] <= nums[j]) continue; // 1. 什么都不做
                 if (len[i] == len[j] + 1) cnt[i] += cnt[j]; // 2.1 更新 若长度情况与上次相同，则更新数量
