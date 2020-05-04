@@ -21,7 +21,7 @@ public:
 class Solution2{
 public:
     int InversePairs(vector<int> data){
-        temp.capacity = data.size();
+        // temp.capacity = data.size();
         mergeSort(data,0,data.size()-1);
         return result % 1000000007;
     }
